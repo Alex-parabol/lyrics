@@ -46,7 +46,7 @@ form.card {
 }
 
 .letra {
-  white-space: pre-wrap;
+  white-space: pre;
 }
 
 .card img {
