@@ -6,16 +6,6 @@ export default function ArtistaInfo({artistaInfo}) {
 
     const {strArtistThumb,strGenre, strBiographyES, strBiographyEN} = artistaInfo;
 
-    const Biografia = (strBiographyES) => {
-        if(strBiographyES.length === 0){
-            return (
-            <p className="card-text">{strBiographyEN} </p>
-        )
-        } 
-        return <p className="card-text">{strBiographyES} </p>
-        
-    }
-
    
     return (
         <div className='card border-light'>
